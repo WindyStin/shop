@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="shop:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d09db133-5a92-43b0-9cab-3a3cab1cd2ac" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/shop.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/shop2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/shop_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/activation_1_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/c3p0_0_9_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/c3p0_0_9_5_2__2_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/c3p0_0_9_5_2__3_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_beanutils_1_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_dbutils_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_dbutils_1_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_fileupload_1_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/javax_mail_1_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jstl_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mchange_commons_java_0_2_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WEB-INF/jboss-deployment-structure.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/c3p0-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dao/GoodsDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dao/OrderDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dao/TypeDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/filter/AdminFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/filter/EncodeFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/Goods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/OrderItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/Recommend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/Type.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/GoodsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/TypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlet/AdminGoodsAddServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlet/AdminGoodsDeleteServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlet/AdminGoodsEditServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlet/AdminGoodsEditshowServelt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlet/AdminGoodsListServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlet/AdminGoodsRecommendServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlet/AdminOrderDeleteServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlet/AdminOrderListServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlet/AdminOrderStatusServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlet/AdminRecordListServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlet/AdminSellCountServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlet/AdminTypeAddServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlet/AdminTypeDeleteServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlet/AdminTypeEditServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlet/AdminTypeListServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlet/AdminUserAddServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlet/AdminUserDeleteServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlet/AdminUserEditServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlet/AdminUserEditshowServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlet/AdminUserListServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlet/AdminUserResetServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlet/GoodRecommendListServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlet/GoodsBuyServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlet/GoodsDeleteServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlet/GoodsDetailServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlet/GoodsLessenServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlet/GoodsListServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlet/GoodsSearchServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlet/IndexServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlet/OrderConfirmServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlet/OrderListServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlet/OrderSubmitServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlet/SendOrderEmailServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlet/UserChangeAddressServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlet/UserChangePwd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlet/UserLoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlet/UserLogoutServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlet/UserRegisterServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/DBUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/DataSourceUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/MailUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/PriceUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/PriceUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/activation-1.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/c3p0-0.9.5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-beanutils-1.9.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-dbutils-1.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-fileupload-1.3.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-io-2.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/javax.mail-1.6.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/javax.mail-api-1.6.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/mchange-commons-java-0.2.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-8.0.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/goods_add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/goods_edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/goods_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/img/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/order_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/post_email.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/record_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/sell_count.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/type_edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/type_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/user_add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/user_edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/user_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/user_reset.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/flexslider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/Marvel-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/Roboto-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/goods_cart.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/goods_detail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/goods_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/goods_search.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/alipay.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/offline.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/slid.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/slid2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/wechat.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/cart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/jquery.flexslider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/theme/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/theme/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/theme/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/theme/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/theme/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/theme/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layer/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layer/theme/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layer/theme/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layer/theme/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layer/theme/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layer/theme/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layer/theme/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/order_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/order_submit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/order_success.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/page.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/picture/1-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/picture/1-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/picture/1-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/picture/2-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/picture/2-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/picture/2-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/picture/3-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/picture/3-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/picture/3-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/picture/4-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/picture/4-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/picture/4-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/picture/5-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/picture/5-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/picture/5-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/picture/6-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/picture/6-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/picture/6-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/picture/7-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/picture/7-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/picture/7-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/picture/8-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/picture/8-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/picture/8-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/post_email.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/user_center.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/user_login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/user_register.jsp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="2oSuF8ERNiMepYCYCp8UMLfNnul" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;JavaMethodFindUsagesOptions.isOverridingMethods&quot;: &quot;true&quot;,
+    &quot;JavaMethodFindUsagesOptions.isSearchForTextOccurrences&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Desk/idea/ideaproject/project/shop/web&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;E:/Desk/idea/ideaproject/project/shop/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Desk\idea\ideaproject\project\shop\web" />
+      <recent name="E:\Desk\idea\ideaproject\project\shop\web\css" />
+      <recent name="E:\Desk\idea\ideaproject\project\shop\web\WEB-INF\lib" />
+      <recent name="E:\Desk\idea\ideaproject\project\shop\src\dao" />
+      <recent name="E:\Desk\idea\ideaproject\project\shop\src\service" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="servlet" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat9">
+    <configuration name="goods_list.jsp" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/admin/goods_list.jsp">
+      <method v="2" />
+    </configuration>
+    <configuration name="goodsrecommend_list.jsp" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/goodsrecommend_list.jsp">
+      <method v="2" />
+    </configuration>
+    <configuration name="order_list.jsp" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/admin/order_list.jsp">
+      <method v="2" />
+    </configuration>
+    <configuration name="post_email.jsp" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/admin/post_email.jsp">
+      <method v="2" />
+    </configuration>
+    <configuration name="record_list.jsp" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/admin/record_list.jsp">
+      <method v="2" />
+    </configuration>
+    <configuration name="Tomcat9" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.96" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="20">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/index" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="shop:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="a31b22c2-189a-4b54-922a-f0957bab5b2c" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="55693" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="shop:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.goods_list.jsp" />
+      <item itemvalue="JavaScript Debug.order_list.jsp" />
+      <item itemvalue="JavaScript Debug.post_email.jsp" />
+      <item itemvalue="JavaScript Debug.record_list.jsp" />
+      <item itemvalue="JavaScript Debug.goodsrecommend_list.jsp" />
+      <item itemvalue="Tomcat Server.Tomcat9" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.order_list.jsp" />
+        <item itemvalue="JavaScript Debug.goods_list.jsp" />
+        <item itemvalue="JavaScript Debug.post_email.jsp" />
+        <item itemvalue="JavaScript Debug.record_list.jsp" />
+        <item itemvalue="JavaScript Debug.goodsrecommend_list.jsp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d09db133-5a92-43b0-9cab-3a3cab1cd2ac" name="Changes" comment="" />
+      <created>1730875193958</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1730875193958</updated>
+      <workItem from="1730875195175" duration="13076000" />
+      <workItem from="1730960436365" duration="6538000" />
+      <workItem from="1730972622256" duration="2292000" />
+      <workItem from="1731050991812" duration="2206000" />
+      <workItem from="1731134509971" duration="19613000" />
+      <workItem from="1731305368236" duration="1099000" />
+      <workItem from="1732964896410" duration="7142000" />
+      <workItem from="1733145700114" duration="3829000" />
+      <workItem from="1733195139715" duration="16521000" />
+      <workItem from="1733272583302" duration="35414000" />
+      <workItem from="1733359689374" duration="38779000" />
+      <workItem from="1733446601370" duration="25025000" />
+      <workItem from="1733484729281" duration="14360000" />
+      <workItem from="1733574864105" duration="422000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

@@ -1,0 +1,28 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="shop2">
+    <output-path>$PROJECT_DIR$/out/artifacts/shop2</output-path>
+    <root id="archive" name="shop2.war">
+      <element id="dir-copy" path="$PROJECT_DIR$/web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="shop" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="activation-1.0.2" />
+          <element id="library" level="project" name="c3p0-0.9.5.2" />
+          <element id="library" level="project" name="c3p0-0.9.5.2 (2)" />
+          <element id="library" level="project" name="c3p0-0.9.5.2 (3)" />
+          <element id="library" level="project" name="commons-beanutils-1.9.3" />
+          <element id="library" level="project" name="commons-dbutils-1.6" />
+          <element id="library" level="project" name="commons-dbutils-1.7" />
+          <element id="library" level="project" name="commons-fileupload-1.3.3" />
+          <element id="library" level="project" name="Java EE 6-Java EE 6" />
+          <element id="library" level="project" name="javax.mail-1.6.2" />
+          <element id="library" level="project" name="jstl-1.2" />
+          <element id="library" level="project" name="mchange-commons-java-0.2.11" />
+          <element id="library" level="project" name="mysql-connector-java-8.0.15" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

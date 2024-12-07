@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="shop">
+    <output-path>$PROJECT_DIR$/out/artifacts/shop</output-path>
+    <root id="archive" name="shop.war">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="shop" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Java EE 6-Java EE 6" />
+          <element id="library" level="project" name="c3p0-0.9.5.2 (3)" />
+          <element id="library" level="project" name="commons-dbutils-1.7" />
+          <element id="library" level="project" name="javax.mail-1.6.2" />
+          <element id="library" level="project" name="activation-1.0.2" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="shop/web/Web" />
+      <element id="javaee-facet-resources" facet="shop/web/Web2" />
+    </root>
+  </artifact>
+</component>
